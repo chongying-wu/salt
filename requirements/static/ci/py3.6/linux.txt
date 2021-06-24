@@ -366,16 +366,6 @@ certifi==2020.6.20
     #   msrest
     #   requests
 certvalidator==0.11.1
-    # via vcert
-cffi==1.14.4
-    # via
-    #   -r requirements/static/ci/common.in
-    #   -r requirements/static/pkg/py3.6/linux.txt
-    #   azure-datalake-store
-    #   bcrypt
-    #   cryptography
-    #   pygit2
-    #   pynacl
 cfn-lint==0.44.3
     # via moto
 chardet==3.0.4
@@ -522,19 +512,8 @@ kubernetes==3.0.0
     # via -r requirements/static/ci/common.in
 libnacl==1.7.1 ; sys_platform != "win32" and sys_platform != "darwin"
     # via -r requirements/static/ci/common.in
-lxml==4.6.3
-    # via
-    #   junos-eznc
-    #   ncclient
-    #   vsphere-automation-sdk
 mako==1.1.0
     # via -r requirements/static/ci/common.in
-markupsafe==1.1.1
-    # via
-    #   -r requirements/static/pkg/py3.6/linux.txt
-    #   jinja2
-    #   mako
-    #   moto
 mock==3.0.5
     # via
     #   -r requirements/pytest.txt
@@ -549,10 +528,6 @@ more-itertools==5.0.0
     #   zipp
 moto==1.3.16
     # via -r requirements/static/ci/common.in
-msgpack==1.0.2
-    # via
-    #   -r requirements/static/pkg/py3.6/linux.txt
-    #   pytest-salt-factories
 msrest==0.6.14
     # via
     #   azure-applicationinsights
@@ -680,10 +655,6 @@ portend==2.4
     # via
     #   -r requirements/static/pkg/py3.6/linux.txt
     #   cherrypy
-psutil==5.8.0
-    # via
-    #   -r requirements/static/pkg/py3.6/linux.txt
-    #   pytest-salt-factories
 py==1.10.0
     # via pytest
 pyasn1-modules==0.2.4
@@ -701,8 +672,6 @@ pycryptodomex==3.9.8
     # via -r requirements/static/pkg/py3.6/linux.txt
 pycurl==7.43.0.6
     # via -r requirements/static/ci/common.in
-pygit2==1.0.3 ; python_version <= "3.8"
-    # via -r requirements/static/ci/linux.in
 pyiface==0.0.11
     # via -r requirements/static/ci/linux.in
 pyinotify==0.9.6 ; sys_platform != "win32" and sys_platform != "darwin" and platform_system != "openbsd"
